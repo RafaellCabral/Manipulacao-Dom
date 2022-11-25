@@ -1,0 +1,30 @@
+ Chamamos o botão novaTarefa.addEventListener( ‘ ‘ ), 
+que é o método que vai ficar escutando o evento. Passamos dentro dele
+ o evento, que é o click, e como segundo argumento passamos o console.log(‘fui clicado’). 
+ Só que, aqui, precisamos de uma ação. 
+ Então, eu vou passar uma função anônima e essa função vai ser executada assim que eu clicar.
+
+
+
+/* Adicionei um escutador de eventos e utilizei a evento de click
+em seguida criei uma arrow function e passei ela por dentro dessa função abaixo, pois quando
+o botao for clicado ele irá executar a função criarTarefa, e tudo que está dentro dessa função
+
+Adicdionei o data-task na tag li que é onde vai receber parágrafos com conteúdos
+
+*/
+
+
+
+
+
+// o primerio argumento é o click e o segundo argumento é a função anônima que é o ()=> ;
+
+/* Chamamos o botão novaTarefa.addEventListener( ‘ ‘ ),
+que é o método que vai ficar escutando o evento. Passamos dentro dele o evento, que é o click, 
+e como segundo argumento passamos o console.log(‘fui clicado’). Só que, aqui, precisamos de uma ação.
+Então, eu vou passar uma função anônima e essa função vai ser executada assim que eu clicar.*/
+
+
+// vamos criar um evento do tipo click para capturar o valor do botao.
+// console.log(botao);
